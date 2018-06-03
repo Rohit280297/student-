@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.Image{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 60vh;
+  width: 100%;
+  margin: 0px auto;
+}
+
+

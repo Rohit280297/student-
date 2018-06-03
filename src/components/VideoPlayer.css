@@ -1,0 +1,33 @@
+.Player{
+    position:fixed;
+    top:20%;
+    left:20%;
+    z-index: 700;
+    width:80%;
+    margin: auto;
+    border:2px solid white;
+}
+
+.Player_Open{
+    display:block;
+}
+
+.Player_Closed{
+    display:none;
+}
+@media only screen and (max-width: 576px) {
+    .Player {
+        height: 25% !important;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .Player {
+        height: 60% !important;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 768px) {
+    .Player {
+        height: 60%;
+    }
+}

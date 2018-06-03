@@ -1,0 +1,21 @@
+.Overlay{
+    position: fixed;
+    z-index: 400;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.Close{
+    position: relative;
+    top: 10%;
+    left: 40vw;
+    font-size: 30px;
+    color:white;
+    cursor: pointer;
+}
+
